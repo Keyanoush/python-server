@@ -1,4 +1,13 @@
 {
-    "python.pythonPath": "/home/keyanoush/.local/share/virtualenvs/python-server-ypdcIeYf/bin/python",
-    "editor.formatOnSave": true
+  "python.pythonPath": "/home/keyanoush/.local/share/virtualenvs/python-server-ypdcIeYf/bin/python",
+  "editor.formatOnSave": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "Python Kennels",
+      "database": "kennel.db"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
 }
